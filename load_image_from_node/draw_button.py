@@ -11,7 +11,7 @@ def load_image_from_node_button(self, context):
 
 
 ##############################################
-## Register/unregister classes and functions
+## REGISTER/UNREGISTER
 ##############################################
 def register():
     bpy.types.IMAGE_MT_editor_menus.prepend(load_image_from_node_button) 

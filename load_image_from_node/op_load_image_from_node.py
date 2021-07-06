@@ -29,7 +29,7 @@ class LIFN_OT_load_image_from_node(bpy.types.Operator):
         return{'FINISHED'}
 
 ##############################################
-## Register/unregister classes and functions
+## REGISTER/UNREGISTER
 ##############################################
 def register():
     bpy.utils.register_class(LIFN_OT_load_image_from_node)

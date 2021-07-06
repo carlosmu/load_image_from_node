@@ -17,11 +17,11 @@ bl_info = {
     "blender" : (2, 83, 0),
     "version" : (0, 1, 0),
     "category" : "Interface",
-    "location" : "Image Editor Header",
+    "location" : "Image Editor Header, Node Context Menu",
     "description" : "Load image from selected node.",
     "warning" : "",
-    "doc_url" : "",
-    "tracker_url" : "",
+    "doc_url" : "https://github.com/carlosmu/load_image_from_node",
+    "tracker_url" : "https://github.com/carlosmu/load_image_from_node/issues",
 }
 
 import bpy
